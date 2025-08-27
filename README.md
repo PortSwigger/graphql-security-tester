@@ -231,6 +231,11 @@ Contributions focused on defensive security testing are welcome:
 - **Performance**: Optimization and reliability improvements
 - **Documentation**: Usage examples and security guidance
 
+## Contributors
+Thanks to all the people who already contributed!
+Nayan Goel
+Nandan Gupta
+
 ## 📜 License
 
 This extension is designed for authorized security testing and educational purposes. Use responsibly and in accordance with applicable laws and regulations.
