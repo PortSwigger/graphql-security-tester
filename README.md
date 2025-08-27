@@ -42,7 +42,7 @@ Tests for comprehensive GraphQL vulnerabilities:
 - **Burp Suite Professional** with AI features enabled
 - **Montoya API 2025.8** or later
 - **Java 17+** runtime environment
-- **AI Credits**: Burp Suite AI credits for query generation (10,000 free credits provided)
+- **AI Credits**: Burp Suite AI credits for query generation
 
 ## 🛠 Installation
 
