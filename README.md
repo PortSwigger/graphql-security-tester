@@ -233,8 +233,8 @@ Contributions focused on defensive security testing are welcome:
 
 ## Contributors
 Thanks to all the people who already contributed!
-Nayan Goel
-Nandan Gupta
+- **Nayan Goel**
+- **Nandan Gupta**
 
 ## 📜 License
 
