@@ -1,0 +1,13 @@
+Uuid: bd98c38519144301a0a232d8e7df613c
+ExtensionType: 1
+Name: GraphQL Security Tester
+RepoName: graphql-security-tester
+ScreenVersion: 1.0.0
+SerialVersion: 1
+MinPlatformVersion: 25
+ProOnly: False
+Author: nayangoel
+ShortDescription: Generates sophisticated malicious GraphQL test queries for authorized security testing, leveraging Burp's native Montoya AI. Features schema introspection, AI monitoring, and intelligent query formatting.
+EntryPoint: AIGraphqlPentester-1.0.jar
+BuildCommand: ./gradlew build
+SupportedProducts: Pro, Community
