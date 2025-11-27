@@ -1,68 +1,36 @@
-<p>A comprehensive Burp Suite extension, AI GraphQL Pentester leverages Burps native Montoya AI to generate sophisticated malicious GraphQL test queries for authorized security testing. This extension features dynamic AI status monitoring, schema introspection, RAG integration, and intelligent query formatting.</p>
+<p>
+    GraphQL Security Tester generates sophisticated malicious GraphQL test
+    queries for authorized security testing. Features dynamic AI status monitoring, automatic and manual schema
+    introspection, optional RAG integration for enhanced security knowledge, and intelligent query formatting that
+    converts multi-line GraphQL to single-line format for streamlined testing workflows.
+</p>
 
 <h2>Features</h2>
-
-<p>
-<strong>Core AI-Powered Functionality:</strong>
-<br>
-Montoya AI Integration: The extension uses Burp Suites built-in AI capabilities (Professional edition required).
-Dynamic AI Status: Real-time AI status monitoring is available with automatic updates.
-Schema Extraction: Two methods supported, automatic introspection of GraphQL endpoints or manual schema input and parsing.
-AI-Powered Query Generation: There are two modes available. Bulk Generation generates multiple malicious queries targeting common vulnerabilities, and Single Query Testing generates malicious variants of a specific target query/mutation.
-Custom AI Messages: Direct interaction with Montoya AI for specialized security guidance.
-</p>
-
-<p>
-<strong>Advanced Security Testing:</strong>
-<br>
-The extension tests for a comprehensive range of GraphQL vulnerabilities, including SQL injection attempts, authorization bypass vulnerabilities, DoS via deep nesting and resource exhaustion, and information disclosure through introspection. Other tests include input validation bypass, NoSQL injection attacks, time-based attack vectors, field access bypasses, rate limiting vulnerabilities, and authentication bypass in nested queries.
-</p>
-
-<p>
-<strong>Advanced Features:</strong>
-<br>
-Single-Line Query Formatting: Automatically converts multi-line GraphQL queries to single-line format for easy testing.
-Dynamic Status Updates: AI status automatically refreshes when toggling the Use AI checkbox.
-External RAG Integration: Optional integration with RAG services for enhanced security knowledge.
-Smart Query Processing: Intelligent parsing of AI responses with context preservation.
-Unicode Handling: Robust Unicode character processing for international content.
-Caching System: Prevents duplicate expensive operations and RAG queries.
-Background Processing: Non-blocking AI operations to keep Burp responsive.
-</p>
+<ul>
+    <li>Burp AI integration generates malicious query variants targeting SQL injection, authorization bypass, DoS,
+        information disclosure, input validation, NoSQL injection, and rate limiting vulnerabilities</li>
+    <li>Dual schema extraction via automatic introspection of GraphQL endpoints or manual schema input and parsing</li>
+    <li>Two generation modes: bulk testing for comprehensive vulnerability coverage or targeted testing to generate
+        malicious variants of specific queries</li>
+    <li>Custom AI messaging for specialized security guidance and tailored vulnerability analysis</li>
+    <li>Optional RAG service integration with configurable relevance parameters and smart caching to prevent duplicate
+        operations</li>
+    <li>Single-line query formatting automatically converts multi-line GraphQL queries for easy testing and integration
+    </li>
+</ul>
 
 <h2>Usage</h2>
-
-<p>
-<strong>Initial Setup:</strong>
-<br>
-To use the extension first enable the AI Features in the Extensions &rarr; Installed section by checking the Use AI checkbox. The AI Status tab will show ENABLED when active. Then optionally, you can configure the RAG integration by setting up the external RAG endpoint.
-</p>
-
-<p>
-<strong>Schema Extraction:</strong>
-<br>
-Automatic Introspection: Enter your GraphQL endpoint URL and click Introspect Schema.
-Manual Input: Paste your GraphQL schema JSON in the text area and click Parse Schema.
-</p>
-
-<p>
-<strong>AI-Powered Query Generation:</strong>
-<br>
-Targeted Testing: Paste a specific GraphQL query/mutation in the Target Query/Mutation field, specify attack types, and click Generate Malicious Queries. Montoya AI will create malicious variants with detailed explanations.
-Comprehensive Testing: For bulk generation, leave the target query field empty, specify desired attack types, and click Generate Malicious Queries. Review generated test queries with attack descriptions.
-</p>
-
-<p>
-<strong>Custom AI Interaction:</strong>
-<br>
-Direct AI Communication: Switch to the Custom Messages tab, enter specific security testing requirements, and click Send Custom Message. Receive tailored security advice and specialized queries.
-</p>
-
-<p>
-<strong>Dynamic AI Status Monitoring:</strong>
-<br>
-Real-time Updates: AI status automatically refreshes when switching tabs.
-Button State Management: AI buttons enable/disable based on the current AI status.
-Visual Feedback: Color-coded status indicators.
-Instructions: Dynamic help text based on current AI availability.
-</p>
+<ol>
+    <li>Enable Burp AI features by checking the "Use AI" checkbox in the Extensions &rarr; Installed tab</li>
+    <li>Extract your GraphQL schema by entering the endpoint URL and clicking "Introspect Schema", or paste schema JSON
+        manually and click "Parse Schema"</li>
+    <li>For targeted testing, paste a specific GraphQL query in the "Target Query/Mutation" field; for comprehensive
+        testing, leave it empty</li>
+    <li>Specify attack types in the "Test Types" field such as <code
+            class="InlineCode">SQL Injection, Authorization Bypass, DoS, Information Disclosure</code></li>
+    <li>Click "Generate Malicious Queries" to create AI-powered test cases with detailed attack vector explanations</li>
+    <li>Optionally use the "Custom Messages" tab to send specific security testing requests directly to Burp AI for
+        specialized guidance</li>
+    <li>Configure optional RAG integration in the RAG Configuration tab to enhance testing with external security
+        knowledge</li>
+</ol>
