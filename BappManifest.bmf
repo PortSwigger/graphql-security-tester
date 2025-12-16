@@ -3,7 +3,7 @@ ExtensionType: 1
 Name: GraphQL Security Tester
 RepoName: graphql-security-tester
 ScreenVersion: 1.0.0
-SerialVersion: 2
+SerialVersion: 3
 MinPlatformVersion: 25
 ProOnly: True
 Author: nayangoel
