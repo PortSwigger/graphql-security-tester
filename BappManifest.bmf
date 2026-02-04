@@ -3,10 +3,10 @@ ExtensionType: 1
 Name: GraphQL Security Tester
 RepoName: graphql-security-tester
 ScreenVersion: 1.0.0
-SerialVersion: 5
+SerialVersion: 6
 MinPlatformVersion: 25
 ProOnly: True
-Author: nayangoel
+Author: Nayan Goel, Nandan Gupta
 ShortDescription: Generates sophisticated malicious GraphQL test queries for authorized security testing. using Burp AI, featuring schema introspection, AI monitoring, and intelligent query formatting.
 EntryPoint: AIGraphqlPentester-1.0.jar
 BuildCommand: ./gradlew build
